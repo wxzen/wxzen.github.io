@@ -1,5 +1,3 @@
-# 👋 Hi, 我是 David
-
 [![GitHub followers](https://img.shields.io/github/followers/wxzen?style=social)](https://github.com/wxzen)
 
 ✨ Fullstack Web Developer | 热爱开源 | 构建实用的工具
@@ -117,7 +115,7 @@
 ![拓扑连线](assets/images/topo-connetion.gif)
 
 **简介**  
-借鉴 DrawIO 等编辑器，攻克拓扑图正交连线与自动避障难题。采用路口路由算法生成离散点，结合 A* 与 Dijkstra 算法计算最短路径，并通过可视化调试解决几何误差。实现了可复用的正交连线模块，提升了图编辑交互体验。
+借鉴 DrawIO 等编辑器，攻克拓扑图正交连线与自动避障难题。采用路口路由算法生成离散点，结合 A* 与 Dijkstra 算法计算最短路径，并通过算法可视化调试解决几何误差。实现了可复用的正交连线模块，提升了图编辑交互体验。
 
 **技术栈**  
 ![SVG](https://img.shields.io/badge/-SVG-FFB13B?style=flat-square&logo=svg&logoColor=black)

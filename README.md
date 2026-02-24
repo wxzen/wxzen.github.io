@@ -147,7 +147,6 @@
 
 ## 📬 联系我
 
-- 个人网站：*（建设中，可先留空）*
 - 邮箱：[xuwzen@outlook.com](mailto:xuwzen@outlook.com)
 
 ---

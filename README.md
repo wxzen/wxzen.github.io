@@ -72,7 +72,7 @@
 ### 3. 🧠 算法功底强化：刷题与笔记
 
 **简介**  
-针对业务开发中算法短板，集中巩固基础数据结构与算法，刷题百余道（OD机试、LeetCode 热题100、牛客华为题），产出数百篇笔记。建立 BFS/DFS、图论、二分、动态规划等解题思路，成功通过 OD 算法机试，显著提升了代码能力。
+针对业务开发中算法短板，集中巩固基础数据结构与算法，刷题百余道（OD机试、LeetCode 热题100、牛客华为题），产出数百篇笔记。建立 BFS/DFS、图论、二分、动态规划等解题思路，顺利通过 OD 算法机试，显著提升了代码能力。
 
 **技术栈**  
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)

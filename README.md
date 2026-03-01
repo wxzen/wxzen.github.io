@@ -140,6 +140,7 @@
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **📝 [开发笔记](https://blog.csdn.net/xwstudysoft/article/details/157645035)**
+**📽️ [视频演示](https://www.bilibili.com/video/BV1YXAqzpEEN/?spm_id_from=333.1387.list.card_archive.click&vd_source=3434557e40e288ad9d728f42946fbf4b)**
 
 ---
 

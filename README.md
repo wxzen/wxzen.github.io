@@ -127,7 +127,8 @@
 
 ### 7. 🌍 火星地形四叉树可视化系统
 
-![地形四叉树](assets/images/terrain_quadtree.gif)
+![地形四叉树平面](assets/images/terrain_quadtree.gif)
+![地形四叉树球体](assets/images/terrain_sphere.gif)
 
 **简介**  
 基于 `gdal` 处理火星高程数据（Mars_HRSC_MOLA_BlendDEM），构建 LOD 金字塔与切片架构，使用 Three.js + 四叉树实现 Web 端全球地形渲染。实现了等距/正射投影切换、着色方案、瓦片并发加载（PriorityQueue + Web Worker）、极地空洞修正及地理标注。该项目为大型 GIS 可视化应用积累了完整经验。

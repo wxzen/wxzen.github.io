@@ -32,82 +32,7 @@
 ## 📂我做过的一些项目
 
 ---
-
-### 1. 🚀 CesiumNative + OpenGL 3DTiles 渲染器
-
-![3DTiles渲染](assets/images/cesium-opengl-3dtiles.png)
-![TMS瓦片椭球体](assets/images/cesium-opengl-ellipsoid.png)
-
-**简介**  
-两周内完成 `cesium-native` + OpenGL 3.3 + ImGui 集成，实现 3DTiles 和椭球体渲染。弥补了工作期间未完成的自研项目，并深入掌握了 OpenGL 渲染管线及图形底层技术。
-
-**技术栈**  
-![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
-
-**🔗 [在线演示](https://www.bilibili.com/video/BV1hURqYTEQy/)**
-
----
-
-### 2. 📊 HelloVulkan —— Vulkan 学习与封装
-
-![HelloVulkan](assets/images/hello-vulkan.png)
-
-**简介**  
-系统学习 Vulkan 官方教程，封装 glb/obj 模型渲染器，掌握显示控制与多管线配置。作为 Web 前端开发者，借此拓展底层图形知识，为后续高性能图形应用打下基础。
-
-**技术栈**  
-![Vulkan](https://img.shields.io/badge/-Vulkan-AC4E2E?style=flat-square&logo=vulkan&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-
-**🔗 [GitHub 仓库](https://github.com/wxzen/HelloVulkan.git)**
-
----
-
-### 3. 🧠 算法功底强化：刷题与笔记
-
-**简介**  
-针对业务开发中算法短板，集中巩固基础数据结构与算法，刷题百余道（OD机试、LeetCode 热题100、牛客华为题），产出数百篇笔记。建立 BFS/DFS、图论、二分、动态规划等解题思路，顺利通过 OD 算法机试，显著提升了代码能力。
-
-**技术栈**  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![算法](https://img.shields.io/badge/-算法-007ACC?style=flat-square&logo=leetcode&logoColor=white)
-
-**📝 [OD机试75题笔记](https://blog.csdn.net/xwstudysoft/article/details/148288599)  
-📝 [LeetCode热题100笔记](https://blog.csdn.net/xwstudysoft/article/details/150487826)**
-
----
-
-### 4. 📖 虚拟地球引擎设计（C++重构）
-
-**简介**  
-精读《虚拟地球三维引擎设计》，用 C++20 重构书中 C# 案例，重点研究渲染器架构、椭球体网格、浮点误差与地形渲染技术。同时复习了协程、智能指针、多线程并发等现代 C++ 特性。
-
-**技术栈**  
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
-
-**📝 [学习笔记专栏](https://blog.csdn.net/xwstudysoft/category_12982183.html)**
-
----
-
-### 5. 🖼️ 四叉树+LOD 高分辨率图片渲染
-
-![四叉树LOD演示](assets/images/quatree_lod_demo.gif)
-
-**简介**  
-针对公司项目中 Canvas 渲染 4K+ 图片卡顿的问题，研究并实现基于四叉树 + LOD 的动态分辨率技术，使 Canvas 视口可流畅渲染 8K 以上图片。解决了实际业务痛点，并深入理解空间索引与 GPU 采样优化。
-
-**技术栈**  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![四叉树](https://img.shields.io/badge/-四叉树-4B8BBE?style=flat-square)
-
-
----
-
-### 6. 🔗 拓扑图编辑器正交连线算法
+### 1. 🔗 拓扑图编辑器正交连线算法
 
 ![拓扑连线](assets/images/topo-connetion.gif)
 
@@ -123,7 +48,7 @@
 
 ---
 
-### 7. 🌍 火星地形四叉树可视化系统
+### 2. 🌍 火星地形四叉树可视化系统
 
 ![地形四叉树平面](assets/images/terrain_quadtree.gif)
 ![地形四叉树球体](assets/images/terrain_sphere.gif)
@@ -142,11 +67,85 @@
 **📽️ [视频演示](https://www.bilibili.com/video/BV1YXAqzpEEN/?spm_id_from=333.1387.list.card_archive.click&vd_source=3434557e40e288ad9d728f42946fbf4b)**
 
 ---
+### 3. 🖼️ 四叉树+LOD 高分辨率图片渲染
+
+![四叉树LOD演示](assets/images/quatree_lod_demo.gif)
+
+**简介**  
+针对公司项目中 Canvas 渲染 4K+ 图片卡顿的问题，研究并实现基于四叉树 + LOD 的动态分辨率技术，使 Canvas 视口可流畅渲染 8K 以上图片。解决了实际业务痛点，并深入理解空间索引与 GPU 采样优化。
+
+**技术栈**  
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![四叉树](https://img.shields.io/badge/-四叉树-4B8BBE?style=flat-square)
+
+---
+
+### 4. 📊 HelloVulkan —— Vulkan 学习与封装
+
+![HelloVulkan](assets/images/hello-vulkan.png)
+
+**简介**  
+系统学习 Vulkan 官方教程，封装 glb/obj 模型渲染器，掌握显示控制与多管线配置。作为 Web 前端开发者，借此拓展底层图形知识，为后续高性能图形应用打下基础。
+
+**技术栈**  
+![Vulkan](https://img.shields.io/badge/-Vulkan-AC4E2E?style=flat-square&logo=vulkan&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+
+**🔗 [GitHub 仓库](https://github.com/wxzen/HelloVulkan.git)**
+
+---
+
+### 5. 🚀 CesiumNative + OpenGL 3DTiles 渲染器
+
+![3DTiles渲染](assets/images/cesium-opengl-3dtiles.png)
+![TMS瓦片椭球体](assets/images/cesium-opengl-ellipsoid.png)
+
+**简介**  
+两周内完成 `cesium-native` + OpenGL 3.3 + ImGui 集成，实现 3DTiles 和椭球体渲染。弥补了工作期间未完成的自研项目，并深入掌握了 OpenGL 渲染管线及图形底层技术。
+
+**技术栈**  
+![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
+
+**🔗 [在线演示](https://www.bilibili.com/video/BV1hURqYTEQy/)**
+
+---
+
+### 6. 🎮 godot-3dtiles —— Godot 引擎 3DTiles 插件
+
+![godot-3dtiles](godot-3dtiles.png)
+
+**简介**  
+为 Godot 引擎集成 Cesium Native，实现 3DTiles 数据的加载与渲染。通过 GDExtension 机制封装底层 C++ 接口，在 Godot 中提供高精度的三维地理数据可视化能力。
+
+**技术栈**  
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![Godot](https://img.shields.io/badge/-Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
+
+**🔗 [GitHub 仓库](https://github.com/wxzen/godot-3dtiles)**
+
+---
+
+### 7. 🚦 3D 交通路口仿真
+
+![路口仿真](traffic_simulation.gif)
+
+**简介**  
+基于真实 GIS 数据构建城市交通路口的动态仿真系统。实现车辆路径规划、信号灯控制逻辑与多视角漫游，可用于交通态势推演与智慧城市演示。
+
+**技术栈**  
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![Tween.js](https://img.shields.io/badge/-Tween.js-FF6C37?style=flat-square)
+![Turf.js](https://img.shields.io/badge/-Turf.js-3AAE6B?style=flat-square)
+![Mapbox GL](https://img.shields.io/badge/-Mapbox%20GL-000000?style=flat-square&logo=mapbox&logoColor=white)
+![GeoServer](https://img.shields.io/badge/-GeoServer-2C8EBB?style=flat-square)
+
+---
 
 ## 📬 联系我
 
 - 邮箱：[xuwzen@outlook.com](mailto:xuwzen@outlook.com)
-
----
-
-⭐️ 如果我的项目对你有帮助，欢迎点个 star！

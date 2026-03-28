@@ -1,43 +1,65 @@
 [![GitHub followers](https://img.shields.io/github/followers/wxzen?style=social)](https://github.com/wxzen)
 
-✨ Fullstack Web Developer | Open Source Enthusiast | Building Practical Tools
+✨ Fullstack Web Developer | 10 Years of Experience | Open Source Enthusiast | Building Practical Tools
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Core Strengths
 
-**Frontend**  
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+- **10 years** of web development experience, with the last **6 years focused on frontend & Web3D visualization, digital twins, and WebGIS**
+- Proficient in Vue/React, TypeScript, with expertise in complex project engineering, componentization, and performance optimization
+- Deep knowledge of Three.js, CesiumJS, WebGL — skilled in massive data rendering, LOD scheduling, topology algorithms, and geospatial visualization
+- Experience with C++/OpenGL/CMake, capable of extending 3D engines, developing native plugins, and optimizing performance with WebAssembly
+- Independently lead full project lifecycles: solution design, architecture setup, core development, performance tuning, and delivery
+
+---
+
+## 🛠️ Core Skills
+
+**Frontend Ecosystem**  
 ![Vue](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+
+**Visualization & GIS**  
 ![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
+![WebGL](https://img.shields.io/badge/-WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
+![D3.js](https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white)
+![Turf.js](https://img.shields.io/badge/-Turf.js-3AAE6B?style=flat-square)
+![PostGIS](https://img.shields.io/badge/-PostGIS-4169E1?style=flat-square)
 
-**Backend**  
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+**Graphics & Low‑Level**  
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/-WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
 
-**Database & Tools**  
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+**Tools & Engineering**  
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Webpack](https://img.shields.io/badge/-Webpack-8DD6F9?style=flat-square&logo=webpack&logoColor=black)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Blender](https://img.shields.io/badge/-Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
+
+---
+
+## 💼 Experience
+
+A seasoned fullstack developer with **10 years of professional experience**, transitioning from traditional Java web development to **frontend visualization and 3D graphics**. Over the past 6 years, I have focused on Web3D, digital twins, and WebGIS — leading architecture design, core development, and performance optimization for complex visualization platforms. I have successfully delivered projects in smart grid inspection, intelligent transportation, environmental monitoring, and geospatial data visualization, and have also built several self‑driven projects to deepen expertise in 3D engines, pathfinding algorithms, and large‑scale terrain rendering.
 
 ---
 
 ## 📂 Featured Projects
 
----
 ### 1. 🔗 Orthogonal Edge Routing Algorithm for Topology Editor
 
 ![Topology Connection](assets/images/topo-connetion.gif)
 
 **Description**  
-Inspired by editors like DrawIO, this project tackles orthogonal edge routing and automatic obstacle avoidance. It generates discrete points using a grid-based approach, computes shortest paths with A* and Dijkstra, and uses algorithm visualization to debug geometric errors. The result is a reusable orthogonal edge routing module that enhances interactive graph editing.
+Inspired by editors like DrawIO, this project tackles orthogonal edge routing and automatic obstacle avoidance. It generates discrete points using a grid‑based approach, computes shortest paths with A* and Dijkstra, and uses algorithm visualization to debug geometric errors. The result is a reusable orthogonal edge routing module that enhances interactive graph editing.
 
 **Tech Stack**  
 ![SVG](https://img.shields.io/badge/-SVG-FFB13B?style=flat-square&logo=svg&logoColor=black)
@@ -48,13 +70,13 @@ Inspired by editors like DrawIO, this project tackles orthogonal edge routing an
 
 ---
 
-### 2. 🌍 Mars Terrain Quadtree Visualization System
+### 2. 🌍 Mars Terrain Visualization System
 
 ![Terrain Quadtree Plane](assets/images/terrain_quadtree.gif)
 ![Terrain Quadtree Sphere](assets/images/terrain_sphere.gif)
 
 **Description**  
-Processes Mars elevation data (Mars_HRSC_MOLA_BlendDEM) with GDAL, builds a LOD pyramid and tile structure, and renders global terrain in the browser using Three.js + quadtree. Features include orthographic/perspective projection switching, custom shading, concurrent tile loading (PriorityQueue + Web Worker), pole hole correction, and geospatial annotations. This project provides comprehensive experience for large‑scale GIS visualization applications.
+A planetary‑scale terrain visualization system built with Vue3 + TypeScript + Three.js. Implements quadtree‑based LOD tile scheduling, dual projection switching (orthographic/perspective), and asynchronous computation via Web Workers. Achieves LCP 489ms, INP 45ms, CLS 0, and a stable 60fps, supporting high‑precision terrain roaming and geospatial search.
 
 **Tech Stack**  
 ![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
@@ -64,9 +86,10 @@ Processes Mars elevation data (Mars_HRSC_MOLA_BlendDEM) with GDAL, builds a LOD 
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **📝 [Development Notes](https://blog.csdn.net/xwstudysoft/article/details/157645035)**
-**📽️ [Video Demo](https://www.bilibili.com/video/BV1YXAqzpEEN/?spm_id_from=333.1387.list.card_archive.click&vd_source=3434557e40e288ad9d728f42946fbf4b)**
+**📽️ [Video Demo](https://www.bilibili.com/video/BV1YXAqzpEEN/)**
 
 ---
+
 ### 3. 🖼️ High‑Resolution Image Rendering with Quadtree + LOD
 
 ![Quadtree LOD Demo](assets/images/quatree_lod_demo.gif)
@@ -128,8 +151,40 @@ Integrates Cesium Native into the Godot engine, enabling loading and rendering o
 **🔗 [GitHub Repository](https://github.com/wxzen/godot-3dtiles)**
 
 ---
+### 7. ⚡ 3D Power Grid Inspection System
 
-### 7. 🚦 3D Traffic Intersection Simulation
+**Description**  
+A digital twin platform built with Vue2 + CesiumJS for power grid inspection. Features smooth loading of massive oblique photogrammetry data, UAV flight path planning, and video fusion, significantly improving on‑site inspection efficiency.
+
+**Tech Stack**  
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+---
+
+### 8. 🌫️ Air Quality Monitoring Platform with Spatial Interpolation
+
+**Description**  
+An environmental monitoring platform implementing dynamic visualization of meteorological fields using IDW (Inverse Distance Weighting) and Kriging interpolation algorithms. Performance optimized with Web Workers and WebAssembly for smooth frontend rendering. Also includes a multi‑threaded data crawler to ensure data integrity and collection efficiency.
+
+**Tech Stack**  
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![D3.js](https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/-WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**📝 Technical Blogs**  
+- [Inverse Distance Weighting (IDW) Deep Dive](https://www.cnblogs.com/davidxu/p/12817096.html)  
+- [Bilinear Interpolation Explained](https://www.cnblogs.com/davidxu/p/13764587.html)  
+- [Kriging Interpolation Deep Dive](https://www.cnblogs.com/davidxu/p/14223934.html)
+
+**🔗 [GitHub Repository](https://github.com/wxzen/jcontour)** — Java implementation of IDW, Kriging, and contour topology drawing
+
+---
+
+### 9. 🚦 3D Traffic Intersection Simulation
 
 ![Intersection Simulation](traffic_simulation.gif)
 
@@ -146,6 +201,15 @@ A dynamic simulation system for urban traffic intersections built on real GIS da
 
 ---
 
+## 🎓 Education
+
+**Anhui Agricultural University**  
+Bachelor of Information Management and Information Systems  
+*2011 – 2015*
+
+---
+
 ## 📬 Contact Me
 
 - Email: [xuwzen@outlook.com](mailto:xuwzen@outlook.com)
+- GitHub: [github.com/wxzen](https://github.com/wxzen)

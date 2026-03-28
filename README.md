@@ -7,8 +7,8 @@
 ## 🚀 Core Strengths
 
 - **10 years** of web development experience, with the last **6 years focused on frontend & Web3D visualization, digital twins, and WebGIS**
-- Proficient in Vue/React, TypeScript, with expertise in complex project engineering, componentization, and performance optimization
-- Deep knowledge of Three.js, CesiumJS, WebGL — skilled in massive data rendering, LOD scheduling, topology algorithms, and geospatial visualization
+- Familiar with Vue/React, TypeScript, with experience in complex project engineering, componentization, and performance optimization
+- Solid understanding of Three.js, CesiumJS, WebGL — experienced in massive data rendering, LOD scheduling, topology algorithms, and geospatial visualization
 - Experience with C++/OpenGL/CMake, capable of extending 3D engines, developing native plugins, and optimizing performance with WebAssembly
 - Independently lead full project lifecycles: solution design, architecture setup, core development, performance tuning, and delivery
 

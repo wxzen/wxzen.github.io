@@ -1,12 +1,12 @@
 [![GitHub followers](https://img.shields.io/github/followers/wxzen?style=social)](https://github.com/wxzen)
 
-✨ Fullstack Web Developer | 热爱开源 | 构建实用的工具
+✨ Fullstack Web Developer | Open Source Enthusiast | Building Practical Tools
 
 ---
 
-## 🛠️ 职业技能
+## 🛠️ Tech Stack
 
-**前端**  
+**Frontend**  
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -16,127 +16,127 @@
 ![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
 ![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
 
-**后端**  
+**Backend**  
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
-**数据库 & 工具**  
+**Database & Tools**  
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
 ---
 
-## 📂我做过的一些项目
+## 📂 Featured Projects
 
 ---
-### 1. 🔗 拓扑图编辑器正交连线算法
+### 1. 🔗 Orthogonal Edge Routing Algorithm for Topology Editor
 
-![拓扑连线](assets/images/topo-connetion.gif)
+![Topology Connection](assets/images/topo-connetion.gif)
 
-**简介**  
-借鉴 DrawIO 等编辑器，攻克拓扑图正交连线与自动避障难题。采用路口路由算法生成离散点，结合 A* 与 Dijkstra 算法计算最短路径，并通过算法可视化调试解决几何误差。实现了可复用的正交连线模块，提升了图编辑交互体验。
+**Description**  
+Inspired by editors like DrawIO, this project tackles orthogonal edge routing and automatic obstacle avoidance. It generates discrete points using a grid-based approach, computes shortest paths with A* and Dijkstra, and uses algorithm visualization to debug geometric errors. The result is a reusable orthogonal edge routing module that enhances interactive graph editing.
 
-**技术栈**  
+**Tech Stack**  
 ![SVG](https://img.shields.io/badge/-SVG-FFB13B?style=flat-square&logo=svg&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![图论](https://img.shields.io/badge/-图论-2C8EBB?style=flat-square)
+![Graph Theory](https://img.shields.io/badge/-Graph%20Theory-2C8EBB?style=flat-square)
 
-**📝 [技术笔记](https://blog.csdn.net/xwstudysoft/article/details/157542583)**
+**📝 [Technical Notes](https://blog.csdn.net/xwstudysoft/article/details/157542583)**
 
 ---
 
-### 2. 🌍 火星地形四叉树可视化系统
+### 2. 🌍 Mars Terrain Quadtree Visualization System
 
-![地形四叉树平面](assets/images/terrain_quadtree.gif)
-![地形四叉树球体](assets/images/terrain_sphere.gif)
+![Terrain Quadtree Plane](assets/images/terrain_quadtree.gif)
+![Terrain Quadtree Sphere](assets/images/terrain_sphere.gif)
 
-**简介**  
-基于 `gdal` 处理火星高程数据（Mars_HRSC_MOLA_BlendDEM），构建 LOD 金字塔与切片架构，使用 Three.js + 四叉树实现 Web 端全球地形渲染。实现了等距/正射投影切换、着色方案、瓦片并发加载（PriorityQueue + Web Worker）、极地空洞修正及地理标注。该项目为大型 GIS 可视化应用积累了完整经验。
+**Description**  
+Processes Mars elevation data (Mars_HRSC_MOLA_BlendDEM) with GDAL, builds a LOD pyramid and tile structure, and renders global terrain in the browser using Three.js + quadtree. Features include orthographic/perspective projection switching, custom shading, concurrent tile loading (PriorityQueue + Web Worker), pole hole correction, and geospatial annotations. This project provides comprehensive experience for large‑scale GIS visualization applications.
 
-**技术栈**  
+**Tech Stack**  
 ![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![GDAL](https://img.shields.io/badge/-GDAL-5CAE58?style=flat-square)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
-**📝 [开发笔记](https://blog.csdn.net/xwstudysoft/article/details/157645035)**
-**📽️ [视频演示](https://www.bilibili.com/video/BV1YXAqzpEEN/?spm_id_from=333.1387.list.card_archive.click&vd_source=3434557e40e288ad9d728f42946fbf4b)**
+**📝 [Development Notes](https://blog.csdn.net/xwstudysoft/article/details/157645035)**
+**📽️ [Video Demo](https://www.bilibili.com/video/BV1YXAqzpEEN/?spm_id_from=333.1387.list.card_archive.click&vd_source=3434557e40e288ad9d728f42946fbf4b)**
 
 ---
-### 3. 🖼️ 四叉树+LOD 高分辨率图片渲染
+### 3. 🖼️ High‑Resolution Image Rendering with Quadtree + LOD
 
-![四叉树LOD演示](assets/images/quatree_lod_demo.gif)
+![Quadtree LOD Demo](assets/images/quatree_lod_demo.gif)
 
-**简介**  
-针对公司项目中 Canvas 渲染 4K+ 图片卡顿的问题，研究并实现基于四叉树 + LOD 的动态分辨率技术，使 Canvas 视口可流畅渲染 8K 以上图片。解决了实际业务痛点，并深入理解空间索引与 GPU 采样优化。
+**Description**  
+To address performance issues with Canvas rendering 4K+ images in a company project, this solution implements dynamic resolution using a quadtree + LOD approach. It enables smooth rendering of images larger than 8K in a Canvas viewport, effectively solving a real‑world business bottleneck while deepening understanding of spatial indexing and GPU sampling optimization.
 
-**技术栈**  
+**Tech Stack**  
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![四叉树](https://img.shields.io/badge/-四叉树-4B8BBE?style=flat-square)
+![Quadtree](https://img.shields.io/badge/-Quadtree-4B8BBE?style=flat-square)
 
 ---
 
-### 4. 📊 HelloVulkan —— Vulkan 学习与封装
+### 4. 📊 HelloVulkan — Vulkan Learning & Wrapper
 
 ![HelloVulkan](assets/images/hello-vulkan.png)
 
-**简介**  
-系统学习 Vulkan 官方教程，封装 glb/obj 模型渲染器，掌握显示控制与多管线配置。作为 Web 前端开发者，借此拓展底层图形知识，为后续高性能图形应用打下基础。
+**Description**  
+Systematically studied the official Vulkan tutorial and wrapped a glb/obj model renderer, gaining control over presentation and multiple pipelines. As a frontend developer, this project expanded my knowledge of low‑level graphics, laying a foundation for future high‑performance graphics applications.
 
-**技术栈**  
+**Tech Stack**  
 ![Vulkan](https://img.shields.io/badge/-Vulkan-AC4E2E?style=flat-square&logo=vulkan&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
-**🔗 [GitHub 仓库](https://github.com/wxzen/HelloVulkan.git)**
+**🔗 [GitHub Repository](https://github.com/wxzen/HelloVulkan.git)**
 
 ---
 
-### 5. 🚀 CesiumNative + OpenGL 3DTiles 渲染器
+### 5. 🚀 CesiumNative + OpenGL 3DTiles Renderer
 
-![3DTiles渲染](assets/images/cesium-opengl-3dtiles.png)
-![TMS瓦片椭球体](assets/images/cesium-opengl-ellipsoid.png)
+![3DTiles Rendering](assets/images/cesium-opengl-3dtiles.png)
+![TMS Tiles Ellipsoid](assets/images/cesium-opengl-ellipsoid.png)
 
-**简介**  
-两周内完成 `cesium-native` + OpenGL 3.3 + ImGui 集成，实现 3DTiles 和椭球体渲染。弥补了工作期间未完成的自研项目，并深入掌握了 OpenGL 渲染管线及图形底层技术。
+**Description**  
+Integrated `cesium-native` with OpenGL 3.3 and ImGui in two weeks, implementing 3DTiles and ellipsoid rendering. This project filled a gap from previous work and provided deep insight into the OpenGL pipeline and underlying graphics technologies.
 
-**技术栈**  
+**Tech Stack**  
 ![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
 
-**🔗 [在线演示](https://www.bilibili.com/video/BV1hURqYTEQy/)**
+**🔗 [Live Demo](https://www.bilibili.com/video/BV1hURqYTEQy/)**
 
 ---
 
-### 6. 🎮 godot-3dtiles —— Godot 引擎 3DTiles 插件
+### 6. 🎮 godot-3dtiles — Godot Engine 3DTiles Plugin
 
 ![godot-3dtiles](godot-3dtiles.png)
 
-**简介**  
-为 Godot 引擎集成 Cesium Native，实现 3DTiles 数据的加载与渲染。通过 GDExtension 机制封装底层 C++ 接口，在 Godot 中提供高精度的三维地理数据可视化能力。
+**Description**  
+Integrates Cesium Native into the Godot engine, enabling loading and rendering of 3DTiles data. Using GDExtension, the plugin wraps the underlying C++ interfaces to provide high‑precision 3D geospatial data visualization within Godot.
 
-**技术栈**  
+**Tech Stack**  
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 ![Godot](https://img.shields.io/badge/-Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
 
-**🔗 [GitHub 仓库](https://github.com/wxzen/godot-3dtiles)**
+**🔗 [GitHub Repository](https://github.com/wxzen/godot-3dtiles)**
 
 ---
 
-### 7. 🚦 3D 交通路口仿真
+### 7. 🚦 3D Traffic Intersection Simulation
 
-![路口仿真](traffic_simulation.gif)
+![Intersection Simulation](traffic_simulation.gif)
 
-**简介**  
-基于真实 GIS 数据构建城市交通路口的动态仿真系统。实现车辆路径规划、信号灯控制逻辑与多视角漫游，可用于交通态势推演与智慧城市演示。
+**Description**  
+A dynamic simulation system for urban traffic intersections built on real GIS data. Implements vehicle path planning, traffic light control logic, and multi‑view navigation, suitable for traffic scenario analysis and smart city presentations.
 
-**技术栈**  
+**Tech Stack**  
 ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 ![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
 ![Tween.js](https://img.shields.io/badge/-Tween.js-FF6C37?style=flat-square)
@@ -146,6 +146,6 @@
 
 ---
 
-## 📬 联系我
+## 📬 Contact Me
 
-- 邮箱：[xuwzen@outlook.com](mailto:xuwzen@outlook.com)
+- Email: [xuwzen@outlook.com](mailto:xuwzen@outlook.com)

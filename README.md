@@ -186,7 +186,7 @@ An environmental monitoring platform implementing dynamic visualization of meteo
 
 ### 9. 🚦 3D Traffic Intersection Simulation
 
-![Intersection Simulation](traffic_simulation.gif)
+![Intersection Simulation](assets/images/traffic_simulation.gif)
 
 **Description**  
 A dynamic simulation system for urban traffic intersections built on real GIS data. Implements vehicle path planning, traffic light control logic, and multi‑view navigation, suitable for traffic scenario analysis and smart city presentations.

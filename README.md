@@ -229,9 +229,9 @@ Using graph data structures (based on *Data Structures and Algorithms in Java*),
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![GeoJSON](https://img.shields.io/badge/-GeoJSON-2C8EBB?style=flat-square)
 
-**🔗 [GitHub Repo](https://github.com/wxzen/Leaflet.ImageOverlay.Rotated-by-Two-Markers)**  
+**🔗 [GitHub Repo](https://github.com/wxzen/Leaflet.ImageOverlay.Rotated-by-Two-Markers)** 
 **📝 [Implementation Article](https://www.cnblogs.com/davidxu/p/10362996.html)**  
-**📽️ [Reference Demo](https://youtu.be/uY0oVtETnjs)**
+
 
 ---
 

@@ -163,7 +163,27 @@ A digital twin platform built with Vue2 + CesiumJS for power grid inspection. Fe
 
 ---
 
-### 8. 🌫️ Air Quality Monitoring Platform with Spatial Interpolation
+
+### 8. 🚦 3D Traffic Intersection Simulation
+
+![Intersection Simulation](assets/images/traffic_sim_static.png)
+
+**Description**  
+A dynamic simulation system for urban traffic intersections built on real GIS data. Implements vehicle path planning, traffic light control logic, and multi‑view navigation, suitable for traffic scenario analysis and smart city presentations.
+
+**Tech Stack**  
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![Tween.js](https://img.shields.io/badge/-Tween.js-FF6C37?style=flat-square)
+![Turf.js](https://img.shields.io/badge/-Turf.js-3AAE6B?style=flat-square)
+![Mapbox GL](https://img.shields.io/badge/-Mapbox%20GL-000000?style=flat-square&logo=mapbox&logoColor=white)
+![GeoServer](https://img.shields.io/badge/-GeoServer-2C8EBB?style=flat-square)
+
+---
+Sure! Here's the English version of the newly added project (Indoor Map Editor), following the same style as previous project descriptions.
+
+---
+### 9. 🌫️ Air Quality Monitoring Platform with Spatial Interpolation
 
 **Description**  
 An environmental monitoring platform implementing dynamic visualization of meteorological fields using IDW (Inverse Distance Weighting) and Kriging interpolation algorithms. Performance optimized with Web Workers and WebAssembly for smooth frontend rendering. Also includes a multi‑threaded data crawler to ensure data integrity and collection efficiency.
@@ -184,22 +204,37 @@ An environmental monitoring platform implementing dynamic visualization of meteo
 
 ---
 
-### 9. 🚦 3D Traffic Intersection Simulation
+### 10. 🗺️ Indoor Map Editor – Image Upload/Edit + Multi-Layer Management + Route Planning
 
-![Intersection Simulation](assets/images/traffic_simulation.gif)
 
 **Description**  
-A dynamic simulation system for urban traffic intersections built on real GIS data. Implements vehicle path planning, traffic light control logic, and multi‑view navigation, suitable for traffic scenario analysis and smart city presentations.
+A complete indoor map editing and navigation system inspired by MapWize, consisting of three core modules:
+
+**1. Image Upload & Editing**  
+Supports drag‑and‑drop image placement at a specified latitude/longitude. Two control points (topRightMarker & bottomLeftMarker) allow image rotation, scaling, movement, and drag‑and‑drop repositioning. The core implementation is based on Leaflet.ImageOverlay.Rotated.
+![image editor](assets/images/image-editor.png)
+
+**2. Indoor Map Editor**  
+Full map editing capabilities: add/edit/delete/hide layers, support for raster tiles and GeoJSON layers, multi‑layer group movement. Floor management (add/delete/modify) with automatic layer switching. AP (Access Point) placement on floor plans, with AP drag‑and‑drop, angle adjustment, and information editing.
+
+**3. Route Planning**  
+Using graph data structures (based on *Data Structures and Algorithms in Java*), multi‑source shortest path calculation. Users can select start/end POIs to generate a navigation route.
+![route plan](assets/images/routeplan.png)
 
 **Tech Stack**  
+![Leaflet](https://img.shields.io/badge/-Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
-![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
-![Tween.js](https://img.shields.io/badge/-Tween.js-FF6C37?style=flat-square)
-![Turf.js](https://img.shields.io/badge/-Turf.js-3AAE6B?style=flat-square)
-![Mapbox GL](https://img.shields.io/badge/-Mapbox%20GL-000000?style=flat-square&logo=mapbox&logoColor=white)
-![GeoServer](https://img.shields.io/badge/-GeoServer-2C8EBB?style=flat-square)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![GeoJSON](https://img.shields.io/badge/-GeoJSON-2C8EBB?style=flat-square)
+
+**🔗 [GitHub Repo](https://github.com/wxzen/Leaflet.ImageOverlay.Rotated-by-Two-Markers)**  
+**📝 [Implementation Article](https://www.cnblogs.com/davidxu/p/10362996.html)**  
+**📽️ [Reference Demo](https://youtu.be/uY0oVtETnjs)**
 
 ---
+
 
 ## 🎓 Education
 

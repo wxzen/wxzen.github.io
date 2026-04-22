@@ -212,6 +212,7 @@ A complete indoor map editing and navigation system inspired by MapWize, consist
 
 **1. Image Upload & Editing**  
 Supports drag‑and‑drop image placement at a specified latitude/longitude. Two control points (topRightMarker & bottomLeftMarker) allow image rotation, scaling, movement, and drag‑and‑drop repositioning. The core implementation is based on Leaflet.ImageOverlay.Rotated.
+
 ![image editor](assets/images/image-editor.png)
 
 **2. Indoor Map Editor**  
@@ -219,6 +220,7 @@ Full map editing capabilities: add/edit/delete/hide layers, support for raster t
 
 **3. Route Planning**  
 Using graph data structures (based on *Data Structures and Algorithms in Java*), multi‑source shortest path calculation. Users can select start/end POIs to generate a navigation route.
+
 ![route plan](assets/images/routeplan.png)
 
 **Tech Stack**  

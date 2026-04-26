@@ -90,36 +90,8 @@ A planetary‑scale terrain visualization system built with Vue3 + TypeScript + 
 
 ---
 
-### 3. 🖼️ High‑Resolution Image Rendering with Quadtree + LOD
 
-![Quadtree LOD Demo](assets/images/quatree_lod_demo.gif)
-
-**Description**  
-To address performance issues with Canvas rendering 4K+ images in a company project, this solution implements dynamic resolution using a quadtree + LOD approach. It enables smooth rendering of images larger than 8K in a Canvas viewport, effectively solving a real‑world business bottleneck while deepening understanding of spatial indexing and GPU sampling optimization.
-
-**Tech Stack**  
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![Quadtree](https://img.shields.io/badge/-Quadtree-4B8BBE?style=flat-square)
-
----
-
-### 4. 📊 HelloVulkan — Vulkan Learning & Wrapper
-
-![HelloVulkan](assets/images/hello-vulkan.png)
-
-**Description**  
-Systematically studied the official Vulkan tutorial and wrapped a glb/obj model renderer, gaining control over presentation and multiple pipelines. As a frontend developer, this project expanded my knowledge of low‑level graphics, laying a foundation for future high‑performance graphics applications.
-
-**Tech Stack**  
-![Vulkan](https://img.shields.io/badge/-Vulkan-AC4E2E?style=flat-square&logo=vulkan&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-
-**🔗 [GitHub Repository](https://github.com/wxzen/HelloVulkan.git)**
-
----
-
-### 5. 🚀 CesiumNative + OpenGL 3DTiles Renderer
+### 3. 🚀 CesiumNative + OpenGL 3DTiles Renderer
 
 ![3DTiles Rendering](assets/images/cesium-opengl-3dtiles.png)
 ![TMS Tiles Ellipsoid](assets/images/cesium-opengl-ellipsoid.png)
@@ -136,7 +108,7 @@ Integrated `cesium-native` with OpenGL 3.3 and ImGui in two weeks, implementing 
 
 ---
 
-### 6. 🎮 godot-3dtiles — Godot Engine 3DTiles Plugin
+### 4. 🎮 godot-3dtiles — Godot Engine 3DTiles Plugin
 
 ![godot-3dtiles](godot-3dtiles.png)
 
@@ -151,7 +123,7 @@ Integrates Cesium Native into the Godot engine, enabling loading and rendering o
 **🔗 [GitHub Repository](https://github.com/wxzen/godot-3dtiles)**
 
 ---
-### 7. ⚡ 3D Power Grid Inspection System
+### 5. ⚡ 3D Power Grid Inspection System
 
 **Description**  
 A digital twin platform built with Vue2 + CesiumJS for power grid inspection. Features smooth loading of massive oblique photogrammetry data, UAV flight path planning, and video fusion, significantly improving on‑site inspection efficiency.
@@ -164,7 +136,7 @@ A digital twin platform built with Vue2 + CesiumJS for power grid inspection. Fe
 ---
 
 
-### 8. 🚦 3D Traffic Intersection Simulation
+### 6. 🚦 3D Traffic Intersection Simulation
 
 ![Intersection Simulation](assets/images/traffic_sim_static.png)
 
@@ -183,7 +155,7 @@ A dynamic simulation system for urban traffic intersections built on real GIS da
 Sure! Here's the English version of the newly added project (Indoor Map Editor), following the same style as previous project descriptions.
 
 ---
-### 9. 🌫️ Air Quality Monitoring Platform with Spatial Interpolation
+### 7. 🌫️ Air Quality Monitoring Platform with Spatial Interpolation
 
 **Description**  
 An environmental monitoring platform implementing dynamic visualization of meteorological fields using IDW (Inverse Distance Weighting) and Kriging interpolation algorithms. Performance optimized with Web Workers and WebAssembly for smooth frontend rendering. Also includes a multi‑threaded data crawler to ensure data integrity and collection efficiency.
@@ -204,7 +176,7 @@ An environmental monitoring platform implementing dynamic visualization of meteo
 
 ---
 
-### 10. 🗺️ Indoor Map Editor – Image Upload/Edit + Multi-Layer Management + Route Planning
+### 8. 🗺️ Indoor Map Editor – Image Upload/Edit + Multi-Layer Management + Route Planning
 
 
 **Description**  

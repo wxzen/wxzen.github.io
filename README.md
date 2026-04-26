@@ -110,7 +110,7 @@ Integrated `cesium-native` with OpenGL 3.3 and ImGui in two weeks, implementing 
 
 ### 4. 🎮 godot-3dtiles — Godot Engine 3DTiles Plugin
 
-![godot-3dtiles](godot-3dtiles.png)
+![godot-3dtiles](assets/images/godot-3dtiles.png)
 
 **Description**  
 Integrates Cesium Native into the Godot engine, enabling loading and rendering of 3DTiles data. Using GDExtension, the plugin wraps the underlying C++ interfaces to provide high‑precision 3D geospatial data visualization within Godot.

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>项目介绍</title>
+    <style>
+        /* 全局样式与分页优化 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+            line-height: 1.6;
+            color: #1f2d3d;
+            background: #fff;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        /* 打印样式 - 关键分页控制 */
+        @media print {
+            body {
+                padding: 0.75cm;
+                margin: 0;
+            }
+            /* 避免图片、代码块、表格跨页断裂 */
+            img, pre, code, table, .project-block, .tech-stack, .gif, .image-row {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                page-break-after: avoid;
+                break-after: avoid;
+                page-break-inside: avoid;
+            }
+            /* 限制单张图片最大高度，防止强行换页留白 */
+            img {
+                max-height: 70vh;
+                object-fit: contain;
+                page-break-inside: avoid;
+            }
+            /* 保持项目连续 */
+            .project {
+                page-break-inside: avoid;
+                margin-bottom: 1.5rem;
+            }
+        }
+        /* 屏幕阅读样式 */
+        h1, h2, h3 {
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            border-bottom: 1px solid #eaecef;
+            padding-bottom: 0.3rem;
+        }
+        h1 { font-size: 2rem; }
+        h2 { font-size: 1.5rem; }
+        h3 { font-size: 1.25rem; }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin: 1rem 0;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .badge-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 10px 0;
+        }
+        .badge-list img {
+            margin: 0;
+            box-shadow: none;
+        }
+        hr {
+            margin: 2rem 0;
+        }
+        .project {
+            page-break-inside: avoid;
+            margin-bottom: 2rem;
+        }
+        .links {
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        .links a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        pre {
+            background: #f6f8fa;
+            padding: 12px;
+            border-radius: 6px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: 'SF Mono', Consolas, monospace;
+        }
+        footer {
+            margin-top: 3rem;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #6a737d;
+        }
+    </style>
+    <!-- 引入 marked 解析 Markdown 到 HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div id="content"></div>
+    <script>
+        const markdownContent = `
+[![GitHub followers](https://img.shields.io/github/followers/wxzen?style=social)](https://github.com/wxzen)
+
+✨ 全栈 Web 开发  | 开源爱好者 | 构建实用工具
+
+## 🛠️ 核心技能
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
+![Vue](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
+![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
+![WebGL](https://img.shields.io/badge/-WebGL-990000?style=flat-square&logo=webgl&logoColor=white)
+![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+
+
+
+## 📂 做过的一些项目
+### 🔧 GeoMatrix – 通用 3D 模型数据处理与可视化工具（开发中）
+一款轻量级 3D 模型数据处理与可视化工具。自研 C++ OpenGL 渲染引擎，实现 PBR+IBL 光照管线与 HDR 环境贴图，支持 glTF/GLB、OSGB 倾斜摄影、3D Tiles、点云等多源异构格式的无缝导入、实时预览、编辑及格式转换。
+![alt text](assets/images/GeoMatrix-detail.png)
+ 
+
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Dear ImGui](https://img.shields.io/badge/-Dear%20ImGui-FF7F00?style=flat-square)
+![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+
+
+
+### 🌍 GIS 数字高程可视化
+针对 QGIS 在数字高程三维可视化中的短板，自研四叉树 LOD 地形分析应用。后端用 GDAL 为 TIFF 添加坐标系、重采样并切片生成 LOD 金字塔，通过 Python 脚本组织为类似 3D Tiles 的瓦片集。前端 HTTP 请求瓦片，解析元数据构建场景树，基于四叉树 + LOD + Three.js 自定义着色器渲染地形，支持纯色、高程、纹理三种着色模式，实现多级纹理叠加与父子瓦片纹理继承。采用 LRU 缓存与优先队列预加载高优先级瓦片，保证行星级大场景流畅无缝加载。
+![地形四叉树球体](assets/images/terrain_sphere.gif)
+
+![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![GDAL](https://img.shields.io/badge/-GDAL-5CAE58?style=flat-square)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+**📝 [开发笔记](https://blog.csdn.net/xwstudysoft/article/details/157645035)**
+**📽️ [视频演示](https://www.bilibili.com/video/BV1YXAqzpEEN/)**
+
+
+### 🚀 CesiumNative + OpenGL 3DTiles 渲染器
+将 \`cesium-native\` 与 OpenGL 3.3 及 ImGui 集成，实现 3DTiles 和椭球体渲染功能。
+![3DTiles 渲染](assets/images/cesium-opengl-3dtiles.png)
+![TMS 瓦片椭球体](assets/images/cesium-opengl-ellipsoid.png)
+
+
+![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
+
+**🔗 [在线演示](https://www.bilibili.com/video/BV1hURqYTEQy/)**
+
+
+
+
+
+### 🎮 godot-3dtiles —— Godot 引擎 3DTiles 插件
+将 Cesium Native 集成到 Godot 引擎，实现 3DTiles 数据的加载与渲染。通过 GDExtension 机制封装底层 C++ 接口，在 Godot 中提供高精度三维地理数据可视化能力。
+![godot-3dtiles](assets/images/godot-3dtiles.png)
+
+
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![Godot](https://img.shields.io/badge/-Godot-478CBF?style=flat-square&logo=godotengine&logoColor=white)
+
+**🔗 [GitHub 仓库](https://github.com/wxzen/godot-3dtiles)**
+
+
+
+
+
+
+
+
+### ⚡ 电网立体巡视系统
+基于 Vue2 + CesiumJS 构建的电网数字孪生平台。实现海量倾斜摄影数据流畅加载、无人机航线规划及视频融合，显著提升现场巡检效率。
+![3d-patrol](assets/images/3d-patrol.png)
+
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Cesium](https://img.shields.io/badge/-Cesium-6CB4EE?style=flat-square&logo=cesium&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+
+
+
+### 🚦 智能交通 3D 仿真
+基于真实 GIS 数据构建的城市交通路口动态仿真系统。实现车辆路径规划、信号灯控制逻辑及多视角漫游，适用于交通态势分析与智慧城市演示。
+
+![路口仿真](assets/images/traffic_sim_static.png)
+
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![Three.js](https://img.shields.io/badge/-Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+![Tween.js](https://img.shields.io/badge/-Tween.js-FF6C37?style=flat-square)
+![Turf.js](https://img.shields.io/badge/-Turf.js-3AAE6B?style=flat-square)
+![Mapbox GL](https://img.shields.io/badge/-Mapbox%20GL-000000?style=flat-square&logo=mapbox&logoColor=white)
+![GeoServer](https://img.shields.io/badge/-GeoServer-2C8EBB?style=flat-square)
+
+
+
+### 🌫️ 大气热点网格智能监管平台 
+实现基于 IDW（反距离权重）和克里金插值算法的气象场动态可视化。通过 Web Worker 和 WebAssembly 优化前端渲染性能，并包含多线程数据爬虫确保数据完整性与采集效率。
+
+![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![D3.js](https://img.shields.io/badge/-D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/-WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+- [反距离权重（IDW）详解](https://www.cnblogs.com/davidxu/p/12817096.html)  
+- [双线性插值详解](https://www.cnblogs.com/davidxu/p/13764587.html)  
+- [克里金插值详解](https://www.cnblogs.com/davidxu/p/14223934.html)
+- [GitHub 仓库](https://github.com/wxzen/jcontour)
+
+        `;
+
+        // 使用 marked 解析 markdown
+        document.getElementById('content').innerHTML = marked.parse(markdownContent);
+    </script>
+</body>
+</html>
